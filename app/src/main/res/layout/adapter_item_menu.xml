@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/item_to_top"
+        android:background="#d1d1d1"
+        android:text="顶置"
+        android:gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/item_no_read"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="#ffff0000"
+        android:gravity="center"
+        android:text="未读" />
+
+    <TextView
+        android:id="@+id/item_delete"
+        android:background="#fffb00"
+        android:text="删除"
+        android:gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
